@@ -1,5 +1,5 @@
 ---
- - hosts: localhost:100.80.252.219
+ - hosts: localhost
    tasks:
    - name: this will create a dorect
      command: mkdir /tmp/my_dir3
