@@ -1,0 +1,6 @@
+---
+ - hosts: localhost
+   tasks:
+   - name: this will create a dorect
+     command: mkdir /tmp/my_dir3
+
